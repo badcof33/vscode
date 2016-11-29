@@ -13,6 +13,7 @@
     "editor.lineHeight": 0,
     "editor.lineNumbers": "off",
     "explorer.enableDragAndDrop": false,    
+    "files.encoding": "windows1252",
     "files.autoSave": "onWindowChange",
     "search.quickOpen.includeSymbols": false,
     "bookmarks.saveBookmarksBetweenSessions": true,
