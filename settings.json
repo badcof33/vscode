@@ -8,16 +8,17 @@
         "**/node_modules": true,
         "**/bower_components": true
     },
-    "editor.fontFamily": "Courier New",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Mono",
+    "editor.fontSize": 13,
     "editor.lineHeight": 0,
     "editor.lineNumbers": "off",
+    "explorer.enableDragAndDrop": false,    
     "files.autoSave": "onWindowChange",
     "search.quickOpen.includeSymbols": false,
     "bookmarks.saveBookmarksBetweenSessions": true,
     "bookmarks.navigateThroughAllFiles": true,
     "bookmarks.useStickyBookmarks": true,
-    "git.enabled": false,
+    "git.enabled": true,
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
 }
