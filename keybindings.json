@@ -1,13 +1,53 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+f2",
-        "command": "bookmarks.toggle",
+        "key": "f7",
+        "command": "workbench.action.tasks.runTask",
         "when": "editorTextFocus"
     },
     {
-        "key": "f2",
+        "key": "ctrl+l i",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+l l",
         "command": "bookmarks.listFromAllFiles",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l l",
+        "command": "bookmarks.listFromAllFiles",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l a",
+        "command": "workbench.action.toggleActivityBarVisibility",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+o",
+                "command": "editor.action.outdentLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+h",
+        "command": "textmarker.markText",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "textmarker.clearAllHighlight",
         "when": "editorTextFocus"
     }
 ]

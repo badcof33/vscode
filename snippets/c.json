@@ -1,6 +1,6 @@
 {
-/*
-	 // Place your snippets for C here. Each snippet is defined under a snippet name and has a prefix, body and 
+	/*
+	 // Place your snippets for C here. Each snippet is defined under a snippet name and has a prefix, body and
 	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
 	 // Example:
@@ -13,4 +13,54 @@
 		"description": "Log output to console"
 	}
 */
+	"C function head": {
+		"prefix": "fun",
+		"body": [
+			"/**",
+			" * \\brief $1",
+			" * \\par Global changed variables:",
+			" * - None",
+			" *",
+			" * */",
+			"$2"
+		],
+		"description": "The standard head of a C function"
+	},
+	"Doxygen brief": {
+		"prefix": "brf",
+		"body": [
+			"/** \\brief $1 */",
+			"$2"
+		],
+		"description": "One line comment as brief"
+	},
+	"if statement": {
+		"prefix": "if",
+		"body": [
+			"if ($1)",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "A simple if-construction."
+	},
+	"else statement": {
+		"prefix": "else",
+		"body": [
+			"else",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "A else-construction."
+	},
+	"Throw DEBUF CODE warning": {
+		"prefix": "dbg",
+		"body": [
+			"\n#warning DEBUG CODE ADDED -- STARTS HERE",
+			"\t$1",
+			"#warning DEBUG CODE ADDED -- ENDS HERE\n"
+		],
+		"description": "A else-construction."
+	}
 }
