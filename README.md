@@ -12,5 +12,5 @@ Anyhow, Clang works really nice. Here is my current used configuration:
 
 ## Like to write extensions?
 
-VS Code's API is documented here `https://code.visualstudio.com/docs/extensionAPI/overview`.
+VS Code's API is documented here https://code.visualstudio.com/docs/extensionAPI/overview.
 Good luck!
