@@ -1,0 +1,19 @@
+// Here is the schema of tasks.json https: https://code.visualstudio.com/docs/editor/tasks_appendix
+{
+    "version": "0.1.0",
+    "command": "cmd",
+    "isShellCommand": true,
+    "args": ["/C"],
+    "tasks": [
+        {
+            "taskName": "install",
+            "args": ["npm install"]
+        },
+        {
+            "taskName": "build",
+            "args": ["gulp build"],
+            "isBuildCommand": true,
+            "problemMatcher": "$gulp-tsc"
+        }
+    ]
+}
