@@ -1,1 +1,16 @@
-{BasedOnStyle: LLVM, IndentWidth: 4, UseTab: false, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, AlignAfterOpenBracket: true, AlignConsecutiveAssignments: true, IndentCaseLabels: true, ColumnLimit: 0, ReflowComments: true, AlignTrailingComments: true, BreakBeforeBinaryOperators: All}
+{
+    BasedOnStyle: LLVM,
+    BreakBeforeBraces: Allman,
+    ColumnLimit: 0,
+    AlignOperands: true,
+    AlignTrailingComments: true,
+    IndentWidth: 4,
+    UseTab: false,
+    AllowShortIfStatementsOnASingleLine: false,
+    AlignAfterOpenBracket: true,
+    AlignConsecutiveDeclarations: true,
+    AlignConsecutiveAssignments: true,
+    IndentCaseLabels: true,
+    ReflowComments: true,
+    BreakBeforeBinaryOperators: All
+}
