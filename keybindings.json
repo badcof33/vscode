@@ -1,12 +1,7 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "alt+backspace",
-        "command": "extension.gotoLastEditLocation",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "f7",
+        "key": "ctrl+, b",
         "command": "workbench.action.tasks.runTask",
         "when": "editorTextFocus"
     },
@@ -26,6 +21,11 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+, o",
+        "command": "workbench.action.closeEditorsInOtherGroups",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+alt+i",
         "command": "editor.action.indentLines",
         "when": "editorTextFocus && !editorReadonly"
@@ -36,7 +36,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+5",
+        "key": "ctrl+5",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
