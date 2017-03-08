@@ -14,6 +14,7 @@
     "editor.quickSuggestions": false,
     "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "all",
+    "editor.selectionHighlight": false,
     "editor.suggestOnTriggerCharacters": false,
     "editor.acceptSuggestionOnEnter": true,
     "editor.wordBasedSuggestions": true,
@@ -21,7 +22,7 @@
     "explorer.enableDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "files.encoding": "windows1252",
-    "files.autoSave": "off",
+    "files.autoSave": "onWindowChange",
     "files.hotExit": "off",
     "files.exclude": {
         "**/.*swp": true,
@@ -34,10 +35,10 @@
     "telemetry.enableCrashReporter": false,
     "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     // List of colors to be used to highlight the selected text
     "textmarker.highlightColors": [
-        "goldenrod",
+        "peachpuff",
         "aquamarine",
         "yellow",
         "slategray",
@@ -50,5 +51,7 @@
         "orange",
         "salmon",
         "seagreen"
-    ]
+    ],
+    "workbench.colorTheme": "Lightink",
+    "workbench.iconTheme": "vs-seti"
 }
