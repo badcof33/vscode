@@ -9,10 +9,10 @@
     "editor.fontFamily": "Courier New",
     "editor.fontSize": 12,
     "editor.lineHeight": 20,
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "off",
     "editor.formatOnType": false,
     "editor.quickSuggestions": false,
-    "editor.renderIndentGuides": false,
+    "editor.renderIndentGuides": true,
     "editor.renderLineHighlight": "all",
     "editor.selectionHighlight": false,
     "editor.suggestOnTriggerCharacters": false,
@@ -20,20 +20,19 @@
     "editor.wordBasedSuggestions": true,
     "editor.tabCompletion": true,
     "explorer.enableDragAndDrop": false,
-    "files.trimTrailingWhitespace": true,
-    "files.encoding": "windows1252",
     "files.autoSave": "onWindowChange",
     "files.hotExit": "off",
+    "files.encoding": "windows1252",
     "files.exclude": {
         "**/.*swp": true,
         "files": true,
         "TAGS": true
     },
+    "files.trimTrailingWhitespace": true,
     "problems.autoReveal": false,
     "search.quickOpen.includeSymbols": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     // List of colors to be used to highlight the selected text
@@ -52,6 +51,23 @@
         "salmon",
         "seagreen"
     ],
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "BUG:", // custom text to be highlighted
+            "color": "white", // the text color, any css color identifier is valid
+            "backgroundColor": "red", // the text background color
+            "overviewRulerColor": "red" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "black",
+        "backgroundColor": "darkkhaki",
+        "overviewRulerColor": "grey"
+    },
     "workbench.colorTheme": "Lightink",
     "workbench.iconTheme": "vs-seti"
 }
