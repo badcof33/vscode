@@ -33,9 +33,12 @@
     "search.quickOpen.includeSymbols": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    "vim.useCtrlKeys": false,
     "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     // List of colors to be used to highlight the selected text
     "textmarker.highlightColors": [
         "peachpuff",
