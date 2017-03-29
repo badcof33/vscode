@@ -6,13 +6,13 @@
     "C_Cpp.autocomplete": "Default",
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "line",
-    "editor.fontFamily": "Courier New",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "Fira Mono",
+    "editor.fontSize": 14,
     "editor.lineHeight": 20,
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "off",
     "editor.formatOnType": false,
     "editor.quickSuggestions": false,
-    "editor.renderIndentGuides": false,
+    "editor.renderIndentGuides": true,
     "editor.renderLineHighlight": "all",
     "editor.selectionHighlight": false,
     "editor.suggestOnTriggerCharacters": false,
@@ -20,15 +20,15 @@
     "editor.wordBasedSuggestions": true,
     "editor.tabCompletion": true,
     "explorer.enableDragAndDrop": false,
-    "files.trimTrailingWhitespace": true,
-    "files.encoding": "windows1252",
     "files.autoSave": "onWindowChange",
     "files.hotExit": "off",
+    "files.encoding": "windows1252",
     "files.exclude": {
         "**/.*swp": true,
         "files": true,
         "TAGS": true
     },
+    "files.trimTrailingWhitespace": true,
     "problems.autoReveal": false,
     "search.quickOpen.includeSymbols": true,
     "telemetry.enableTelemetry": false,
@@ -56,5 +56,11 @@
         "seagreen"
     ],
     "workbench.colorTheme": "Lightink",
-    "workbench.iconTheme": "vs-seti"
+    "workbench.iconTheme": "vs-seti",
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    }
 }
