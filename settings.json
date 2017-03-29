@@ -5,7 +5,7 @@
     "bookmarks.useStickyBookmarks": true,
     "C_Cpp.autocomplete": "Default",
     "editor.cursorBlinking": "smooth",
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
     "editor.fontFamily": "Fira Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 20,
