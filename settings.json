@@ -34,21 +34,12 @@
     "workbench.activityBar.visible": true,
     // List of colors to be used to highlight the selected text
     "textmarker.highlightColors": [
-        "peachpuff",
-        "aquamarine",
-        "yellow",
-        "slategray",
-        "slateblue",
-        "violet",
-        "blue",
-        "turquoise",
         "gray",
-        "khaki",
-        "orange",
-        "salmon",
-        "seagreen"
+        "slategray",
+        "darkgoldenrod",
+        "olivedrab"
     ],
-    "workbench.colorTheme": "Lightink",
+    "workbench.colorTheme": "Darkink",
     "workbench.iconTheme": "vs-seti",
     "[cpp]": {
         "editor.quickSuggestions": false
