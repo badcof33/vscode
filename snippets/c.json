@@ -12,7 +12,7 @@
 		],
 		"description": "Log output to console"
 	}
-*/
+	*/
 	"C function head": {
 		"prefix": "fun",
 		"body": [
@@ -26,13 +26,14 @@
 		],
 		"description": "The standard head of a C function"
 	},
-	"Doxygen brief": {
-		"prefix": "brf",
+	"variable": {
+		"prefix": "var",
 		"body": [
-			"/** \\brief $1 */",
-			"$2"
+			"/** \\brief ${1:description} */",
+			"${2:int i};",
+			""
 		],
-		"description": "One line comment as brief"
+		"description": "variable definition"
 	},
 	"if statement": {
 		"prefix": "if",
