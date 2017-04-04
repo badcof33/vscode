@@ -23,8 +23,7 @@
     "files.hotExit": "off",
     "files.encoding": "windows1252",
     "files.exclude": {
-        "**/.*swp": true,
-        "files": true,
+        ".*": true,
         "TAGS": true
     },
     "files.trimTrailingWhitespace": true,
