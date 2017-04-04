@@ -1,8 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "bookmarks.saveBookmarksBetweenSessions": true,
     "bookmarks.navigateThroughAllFiles": true,
-    "bookmarks.useStickyBookmarks": true,
     "C_Cpp.autocomplete": "Default",
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "block",
