@@ -15,7 +15,7 @@
     "editor.renderLineHighlight": "all",
     "editor.selectionHighlight": false,
     "editor.suggestOnTriggerCharacters": false,
-    "editor.acceptSuggestionOnEnter": true,
+    "editor.acceptSuggestionOnEnter": "on",
     "editor.wordBasedSuggestions": true,
     "editor.tabCompletion": true,
     "explorer.enableDragAndDrop": false,
@@ -33,18 +33,6 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     // List of colors to be used to highlight the selected text
-    "textmarker.highlightColors": [
-        "gray",
-        "slategray",
-        "darkgoldenrod",
-        "olivedrab"
-    ],
-    "workbench.colorTheme": "Darkink",
-    "workbench.iconTheme": "vs-seti",
-    "[cpp]": {
-        "editor.quickSuggestions": false
-    },
-    "[c]": {
-        "editor.quickSuggestions": false
-    }
+    "workbench.colorTheme": "Lightink",
+    "workbench.iconTheme": "vs-seti"
 }
