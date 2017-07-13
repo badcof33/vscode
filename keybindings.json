@@ -1,27 +1,27 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+, b",
+        "key": "Alt+x b",
         "command": "workbench.action.tasks.runTask",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+, i",
+        "key": "Alt+x i",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+, l",
+        "key": "Alt+x l",
         "command": "bookmarks.listFromAllFiles",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+, a",
+        "key": "Alt+x a",
         "command": "workbench.action.toggleActivityBarVisibility",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+, o",
+        "key": "Alt+x o",
         "command": "workbench.action.closeEditorsInOtherGroups",
         "when": "editorTextFocus"
     },
@@ -38,16 +38,6 @@
     {
         "key": "ctrl+5",
         "command": "editor.action.jumpToBracket",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+h",
-        "command": "textmarker.markText",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+c",
-        "command": "textmarker.clearAllHighlight",
         "when": "editorTextFocus"
     }
 ]
