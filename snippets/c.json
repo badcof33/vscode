@@ -31,16 +31,16 @@
 		"description": "A simple if-construction."
 	},
 	"#include directive": {
-		"prefix": "inc",
+		"prefix": "incl",
 		"body": [
 			"#include \"$1\""
 		],
 		"description": "insert a include directive."
 	},
 	"#define directive": {
-		"prefix": "inc",
+		"prefix": "def",
 		"body": [
-			"#define \"$1\""
+			"#define $1"
 		],
 		"description": "insert a define directive."
 	},
