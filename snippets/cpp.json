@@ -1,0 +1,66 @@
+{
+	"C function head": {
+		"prefix": "fun",
+		"body": [
+			"/**",
+			" * \\brief $1",
+			" * \\par Global changed variables:",
+			" * - None",
+			" *",
+			" * */",
+			"$2"
+		],
+		"description": "The standard head of a C function"
+	},
+	"Doxygen brief": {
+		"prefix": "brf",
+		"body": [
+			"/** \\brief $1 */",
+			"$2"
+		],
+		"description": "One line comment as brief"
+	},
+	"if statement": {
+		"prefix": "if",
+		"body": [
+			"if ($1)",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "A simple if-construction."
+	},
+	"#include directive": {
+		"prefix": "incl",
+		"body": [
+			"#include \"$1\""
+		],
+		"description": "insert a include directive."
+	},
+	"#define directive": {
+		"prefix": "def",
+		"body": [
+			"#define $1"
+		],
+		"description": "insert a define directive."
+	},
+	"else statement": {
+		"prefix": "else",
+		"body": [
+			"else",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "A else-construction."
+	},
+	"Throw DEBUG CODE warning": {
+		"prefix": "dbg",
+		"body": [
+			"\n#warning DEBUG CODE ADDED -- STARTS HERE",
+			"\t$1",
+			"#warning DEBUG CODE ADDED -- ENDS HERE\n"
+		],
+		"description": "A else-construction."
+	}
+}
