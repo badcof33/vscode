@@ -1,18 +1,4 @@
 {
-	/*
-	 // Place your snippets for C here. Each snippet is defined under a snippet name and has a prefix, body and
-	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
-	 // Example:
-	 "Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	}
-	*/
 	"C function head": {
 		"prefix": "fun",
 		"body": [
@@ -26,14 +12,13 @@
 		],
 		"description": "The standard head of a C function"
 	},
-	"variable": {
-		"prefix": "var",
+	"Doxygen brief": {
+		"prefix": "brf",
 		"body": [
-			"/** \\brief ${1:description} */",
-			"${2:int i};",
-			""
+			"/** \\brief $1 */",
+			"$2"
 		],
-		"description": "variable definition"
+		"description": "One line comment as brief"
 	},
 	"if statement": {
 		"prefix": "if",
@@ -45,6 +30,20 @@
 		],
 		"description": "A simple if-construction."
 	},
+	"#include directive": {
+		"prefix": "inc",
+		"body": [
+			"#include \"$1\""
+		],
+		"description": "insert a include directive."
+	},
+	"#define directive": {
+		"prefix": "inc",
+		"body": [
+			"#define \"$1\""
+		],
+		"description": "insert a define directive."
+	},
 	"else statement": {
 		"prefix": "else",
 		"body": [
@@ -55,7 +54,7 @@
 		],
 		"description": "A else-construction."
 	},
-	"Throw DEBUF CODE warning": {
+	"Throw DEBUG CODE warning": {
 		"prefix": "dbg",
 		"body": [
 			"\n#warning DEBUG CODE ADDED -- STARTS HERE",
