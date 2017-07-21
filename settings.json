@@ -1,20 +1,22 @@
 // Place your settings in this file to overwrite the default settings
 {
     "bookmarks.navigateThroughAllFiles": true,
+    "bookmarks.saveBookmarksInProject": false,
+    "color-highlight.markerType": "outline",
     "C_Cpp.autocomplete": "Default",
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "block",
     "editor.folding": false,
-    "editor.fontFamily": "Fira Mono",
-    "editor.formatOnType": false,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 20,
+    "editor.fontFamily": "Courier New",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
     "editor.lineNumbers": "off",
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": false,
     "editor.renderIndentGuides": true,
-    "editor.renderLineHighlight": "all",
-    "editor.selectionHighlight": false,
+    "editor.renderLineHighlight": "line",
+    "editor.selectionHighlight": true,
+    "editor.snippetSuggestions": "top",
     "editor.suggestOnTriggerCharacters": false,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.wordBasedSuggestions": true,
@@ -24,16 +26,30 @@
     "files.hotExit": "off",
     "files.encoding": "windows1252",
     "files.exclude": {
-        ".*": true,
+        "**/.*swp": true,
         "TAGS": true
     },
     "files.trimTrailingWhitespace": true,
+    "git.enabled": false,
+    "markdown.preview.breaks": false,
     "problems.autoReveal": false,
     "search.quickOpen.includeSymbols": true,
-    "window.zoomLevel": 0,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "Bypass"
+    ],
+    "workbench.startupEditor": "welcomePage",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    // List of colors to be used to highlight the selected text
-    "workbench.colorTheme": "Lightink",
-    "workbench.iconTheme": "vs-seti"
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": -1,
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
+        "editor.wrappingIndent": "same"
+    }
 }
