@@ -2,54 +2,77 @@
 {
     "bookmarks.navigateThroughAllFiles": true,
     "bookmarks.saveBookmarksInProject": false,
-    "color-highlight.markerType": "outline",
+    "color-highlight.markerType": "dot-before",
+    "color-highlight.languages": [
+        "json"
+    ],
     "C_Cpp.autocomplete": "Default",
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorStyle": "block",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line-thin",
+    "editor.find.autoFindInSelection": false,
     "editor.folding": false,
-    "editor.fontFamily": "Courier New",
+    "editor.fontFamily": "'Fira Mono', Consolas",
+    "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "editor.lineHeight": 22,
+    "editor.lineHeight": 20,
     "editor.lineNumbers": "off",
     "editor.minimap.enabled": false,
+    "editor.matchBrackets": true,
     "editor.quickSuggestions": false,
     "editor.renderIndentGuides": true,
-    "editor.renderLineHighlight": "line",
-    "editor.selectionHighlight": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.selectionHighlight": false,
     "editor.snippetSuggestions": "top",
+    "editor.smoothScrolling": true,
     "editor.suggestOnTriggerCharacters": false,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.wordBasedSuggestions": true,
     "editor.tabCompletion": true,
     "explorer.enableDragAndDrop": false,
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
     "files.autoSave": "onWindowChange",
     "files.hotExit": "off",
     "files.encoding": "windows1252",
+    "files.associations": {
+        "*.txt": "markdown"
+    },
     "files.exclude": {
         "**/.*swp": true,
         "TAGS": true
     },
+    "files.watcherExclude": {
+        "**/C_Autosar/**": true,
+        "**/.jazz5": true
+    },
     "files.trimTrailingWhitespace": true,
-    "git.enabled": false,
     "markdown.preview.breaks": false,
     "problems.autoReveal": false,
-    "search.quickOpen.includeSymbols": true,
+    "search.quickOpen.includeSymbols": false,
+    "search.exclude": {
+        ".jazz5": true,
+        ".hg": true,
+        ".git": true
+    },
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "terminal.integrated.shell.windows": "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "-ExecutionPolicy",
-        "Bypass"
-    ],
-    "workbench.startupEditor": "welcomePage",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Default Light+",
-    "workbench.iconTheme": "vs-seti",
-    "window.zoomLevel": -1,
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 0,
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 80,
         "editor.wrappingIndent": "same"
-    }
+    },
+    "workbench.startupEditor": "welcomePage",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Darkink",
+    "git.ignoreMissingGitWarning": true,
+    "spellright.statusBarIndicator": false,
+    "spellright.language": "en_US",
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext"
+    ]
 }
