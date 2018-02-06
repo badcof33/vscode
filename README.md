@@ -8,9 +8,10 @@ A little bit strange is the required file format of .clang-format.
 All options needs to be in a single line (no line break).
 Anyhow, Clang works really nice. Here is my current used configuration:
 
-      {BasedOnStyle: LLVM, IndentWidth: 4, UseTab: false, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, AlignAfterOpenBracket: true, AlignConsecutiveAssignments: true, IndentCaseLabels: true, ColumnLimit: 80, ReflowComments: true, AlignTrailingComments: true, BreakBeforeBinaryOperators: All}
+      { AlignAfterOpenBracket: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignEscapedNewlinesLeft: true, AlignOperands: true, AlignTrailingComments: true, AllowAllParametersOfDeclarationOnNextLine: true, AllowShortIfStatementsOnASingleLine: false, BreakBeforeBinaryOperators: All, BreakBeforeBraces: Allman, ColumnLimit: 0, IndentCaseLabels: true, IndentWidth: 4, UseTab: Never, ReflowComments: true }
 
 ## Like to write extensions?
 
 VS Code's API is documented here https://code.visualstudio.com/docs/extensionAPI/overview.
 Good luck!
+
