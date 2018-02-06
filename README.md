@@ -15,3 +15,16 @@ Anyhow, Clang works really nice. Here is my current used configuration:
 VS Code's API is documented here https://code.visualstudio.com/docs/extensionAPI/overview.
 Good luck!
 
+## A custom task file
+
+The file `tasks.json` shall be located in the `.vscode` in your projects root directory. It controls which project build commands are supported and how to run them. See https://go.microsoft.com/fwlink/?LinkId=733558 for the documentation about the `tasks.json` format.
+
+### Redirect STDERR to STDOUT
+
+Some tools output the error messages to STDERR instead of STDOUT. So you have to redirect the tool output to STDOUT so that Code can parse this with task parameter "pattern". Set parameter "command" in tasks.json` to call 'build.cmd' to achieve the job. On Windows, it looks like this:
+    
+      @echo"%*"
+      @pushd..\Build
+      @gbuild %* 2>&1
+      @popd
+          
