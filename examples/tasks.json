@@ -1,19 +1,81 @@
-// Here is the schema of tasks.json https: https://code.visualstudio.com/docs/editor/tasks_appendix
 {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    //
+    // -----------------------------------------------------------------------
+    // Requires a small wrap-script build.cmd to get this running.
+    // It looks like this:
+    //
+    // @echo"%*"
+    // @pushd..\Build
+    // @gbuild%*
+    // @popd
+    //
+    // -----------------------------------------------------------------------
     "version": "0.1.0",
-    "command": "cmd",
+    "command": "build.cmd",
     "isShellCommand": true,
-    "args": ["/C"],
+    "isBackground": false,
+    "showOutput": "never",
+    "suppressTaskName": true,
     "tasks": [
         {
-            "taskName": "install",
-            "args": ["npm install"]
+            "taskName": "build debug",
+            "args": [
+                "Debug.gpj"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": {
+                "owner": "C",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}\\C_Application\\Build"
+                ],
+                "pattern": {
+                    "regexp": "^\"(.*)\",\\s+line\\s+(\\d+):\\s+(warning|error|fatal)\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
         },
         {
-            "taskName": "build",
-            "args": ["gulp build"],
-            "isBuildCommand": true,
-            "problemMatcher": "$gulp-tsc"
+            "taskName": "build release",
+            "args": [
+                "Release.gpj"
+            ],
+            "isBuildCommand": false,
+            "problemMatcher": {
+                "owner": "C",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}\\C_Application\\Build"
+                ],
+                "pattern": {
+                    "regexp": "^\"(.*)\",\\s+line\\s+(\\d+):\\s+(warning|error|fatal)\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
+        },
+        {
+            "taskName": "clean debug",
+            "args": [
+                "Debug.gpj",
+                "-clean"
+            ],
+            "isBuildCommand": false
+        },
+        {
+            "taskName": "clean release",
+            "args": [
+                "Release.gpj",
+                "-clean"
+            ],
+            "isBuildCommand": false
         }
     ]
 }
