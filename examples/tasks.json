@@ -1,17 +1,4 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    //
-    // -----------------------------------------------------------------------
-    // Requires a small wrap-script build.cmd to get this running.
-    // It looks like this:
-    //
-    // @echo"%*"
-    // @pushd..\Build
-    // @gbuild%*
-    // @popd
-    //
-    // -----------------------------------------------------------------------
     "version": "0.1.0",
     "command": "build.cmd",
     "isShellCommand": true,
